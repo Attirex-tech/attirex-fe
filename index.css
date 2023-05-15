@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  margin: 0;
+  color: white;
+}
+.Logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.smallFont {
+  font-size: 30px;
+}
+.fontSize {
+  font-size: 28px;
+}
+.timer {
+  font-size: 36px;
+  text-align: center;
+}
+.days,
+.Hours,
+.Mins,
+.Sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timer_holder {
+  display: flex;
+  margin: 40px 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.margin {
+  margin: 10px;
+}
+
+.button {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button a {
+  font-size: large;
+  color: rgb(212, 11, 71);
+}
